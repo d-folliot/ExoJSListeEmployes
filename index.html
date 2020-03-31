@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>    
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+	<title>Index</title>
+	<link rel="stylesheet" href="./index.css"/>   
+</head>
+<body>
+    <article class="articlelist">
+        <p class="consigne"> Afficher la liste complete des cartes avec : </p>
+        <section class="buttonholder">
+            <button class="mybutton" id="xhr" >xhr</button>
+            <button class="mybutton" id="fetch" >fetch</button>
+            <button class="mybutton" id="axios" >axios</button>
+            <button class='mybutton' id="clear">effacer l'affichage </button>
+        </section>
+        <section class="tableholder">
+            
+            <table class="tableofcards" id="tablexhr">
+
+            </table>
+            <table class="tableofcards" id="tablefetch">
+
+
+            </table>
+            <table class="tableofcards" id="tableaxios">
+
+
+            </table>
+        </section>
+    </article>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script language="javascript" type="text/javascript" src="./index.js"></script>
+</body>
+</html>

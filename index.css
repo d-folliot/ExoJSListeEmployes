@@ -1,0 +1,55 @@
+:root{
+    --police : #111;
+    --oddrows : #CCC;
+    --evenrows : #FEFEFE;
+    --topcardpart: #0BB;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.consigne{
+    margin: 10px;
+    font-size: 1.5em; 
+    padding: 5px;
+    border-radius: 5px;
+}
+.buttonholder{
+    margin-left: 10px;
+}
+.mybutton{
+    min-width: 50px;
+    margin: 10px;
+    font-size: 1em; 
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.tableofcards{    
+   /*border: 2px solid var(--police);*/
+   border-collapse: collapse;   
+   text-align: center;
+   margin-left: 20px;
+}
+
+.tableofcards th{
+    border: 1px solid var(--police);
+}
+.tableofcards tr:nth-child(odd) {
+    background:var(--oddrows);
+}
+
+.buttonholder{
+    margin-bottom: 30px;
+}
+.topcards{
+    display: flex;
+    flex-flow: row wrap; 
+}
+.label{
+    font-family: cursive;
+    text-align: center;     
+    font-size: 2em;
+}
