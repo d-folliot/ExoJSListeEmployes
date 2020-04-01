@@ -2,7 +2,8 @@
     --police : #111;
     --oddrows : #CCC;
     --evenrows : #FEFEFE;
-    --topcardpart: #0BB;
+    --duplibut: #55F;
+    --delbut: #D88;
 }
 
 *{
@@ -27,17 +28,17 @@
     border-radius: 5px;
 }
 
-.tableofcards{    
+.tableofemp{    
    /*border: 2px solid var(--police);*/
    border-collapse: collapse;   
    text-align: center;
    margin-left: 20px;
 }
 
-.tableofcards th{
+.tableofemp th{
     border: 1px solid var(--police);
 }
-.tableofcards tr:nth-child(odd) {
+.tableofemp tr:nth-child(odd) {
     background:var(--oddrows);
 }
 
@@ -52,4 +53,19 @@
     font-family: cursive;
     text-align: center;     
     font-size: 2em;
+}
+
+.mybuttontab, .mybuttonhead{
+    padding : 3px;
+    border-radius: 5px;
+    margin:3px;
+}
+.mybuttontab{
+    color : var(--evenrows);
+}
+.mybuttondupl{
+    background-color: var(--duplibut);
+}
+.mybuttondel{
+    background-color: var(--delbut);
 }
